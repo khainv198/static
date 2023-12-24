@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "657fdb8b491fb87ff2f6814c"
+  },
+  "template": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Document</title>\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n    <link\n      href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap\"\n      rel=\"stylesheet\"\n    />\n    <style>\n      *,\n      *::before,\n      *::after {\n        padding: 0;\n        margin: 0;\n        box-sizing: border-box;\n      }\n      body {\n        background-color: white;\n        color: black;\n        font-family: 'Roboto', sans-serif;\n      }\n      .container {\n        max-width: 100%;\n        margin-left: auto;\n        margin-right: auto;\n        padding-block: 20px;\n      }\n      .heading {\n        font-size: 16px;\n        font-weight: 700;\n        margin-bottom: 12px;\n      }\n      p {\n        font-size: 14px;\n        font-weight: 400;\n      }\n      .content p {\n        padding-bottom: 12px;\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"container\">\n      <div class=\"content\">\n        <p>otp {{otp}},</p>\n        <p>\n          <a href=\"{{verifyUrl}}\">{{verifyUrl}}</a>\n        </p>\n      </div>\n    </div>\n  </body>\n</html>\n",
+  "validation": "{\"type\":\"object\",\"properties\":{\"otp\":{\"type\":\"string\"},\"verifyUrl\":{\"type\":\"string\"}},\"required\":[\"otp\",\"verifyUrl\"]}",
+  "subject": "Confirm Your Registration",
+  "name": "confirm_your_registration",
+  "appId": "65545f50a4c4c2ce3437c24c",
+  "__v": 0
+}]
